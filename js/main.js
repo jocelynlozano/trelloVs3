@@ -52,7 +52,7 @@ window.addEventListener("load", function(){
 		nuevoForm.appendChild(textAreaCreado);
 		nuevoForm.appendChild(botonCreadoEnJs);
 
-		botonCreadoEnJs.textContent = "Guardar";
+		botonCreadoEnJs.textContent = "Añadir";
 
 		textAreaCreado.focus();
 		textAreaCreado.setAttribute("class", "textAreaCreado");
@@ -82,6 +82,7 @@ window.addEventListener("load", function(){
 		divNuevo.appendChild(form);
 		divNuevo.setAttribute("class", "subContenedor");
 		divNuevo.classList.add("inline");
+		divNuevo.setAttribute("draggable", "true");
 		spanAddList.style.display = "inline-block";
 	};
 
